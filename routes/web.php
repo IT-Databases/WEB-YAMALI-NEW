@@ -1,6 +1,8 @@
 <?php
 
+use App\Http\Controllers\BeritaController;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\ReportController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -20,4 +22,10 @@ Route::get('/', function () {
 
 
 Route::get('/', [HomeController::class, 'index']);
+Route::get('/laporan-diskriminasi', [ReportController::class, 'index']);
+Route::post('/laporan-diskriminasi', [ReportController::class, 'create']);
+Route::get('/berita', [BeritaController::class, 'index']);
+Route::post('/berita', [BeritaController::class, 'cari']);
+Route::get('/donasi', [HomeController::class, 'donasi']);
+Route::get('/berita/{slug}', [BeritaController::class, 'detail']);
 

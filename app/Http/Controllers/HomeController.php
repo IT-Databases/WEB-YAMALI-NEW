@@ -49,17 +49,18 @@ class HomeController extends Controller
                 'gambar' => 'masnidar.jpg',
             ],
         ];
-
+        $status = 'beranda';
         $beritas = Berita::latest()->take(10)->get();
-        return view('beranda', compact('tims','beritas'));
+        return view('beranda', compact('tims','beritas','status'));
     }
 
     /**
      * Show the form for creating a new resource.
      */
-    public function create()
+    public function donasi()
     {
-        //
+        $status = 'donasi';
+        return view('donasi',compact('$status'));
     }
 
     /**

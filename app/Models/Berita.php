@@ -8,4 +8,14 @@ use Illuminate\Database\Eloquent\Model;
 class Berita extends Model
 {
     use HasFactory;
+    protected $fillable = [
+        'judul',
+        'author',
+        'slug',
+        'berita',
+        'berita_pendek',
+        'sumber',
+        'tag',
+        'gambar',  
+    ];
 }

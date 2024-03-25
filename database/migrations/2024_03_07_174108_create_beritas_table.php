@@ -15,7 +15,9 @@ return new class extends Migration
             $table->id();
             $table->string('judul');
             $table->string('author');
+            $table->string('slug');
             $table->text('berita');
+            $table->string('berita_pendek');
             $table->string('sumber');
             $table->string('tag');
             $table->string('gambar');

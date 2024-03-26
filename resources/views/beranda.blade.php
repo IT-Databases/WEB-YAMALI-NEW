@@ -157,8 +157,8 @@
 @section('main')
     <header class="h-screen w-full flex flex-col justify-center items-center ">
         <img class="w-full block lg:hidden md:w-2/3 animate__animated animate__fadeInDown"src="/img/hero2.png" alt="hero">
-        <div class="w-full flex  lg:content-center lg:justify-between px-10 animate__animated animate__fadeInLeft ">
-            <div class="w-full flex flex-col m-auto justify-center  lg:items-start items-center">
+        <div class="w-full flex  lg:content-center lg:justify-between px-10  ">
+            <div class="w-full flex flex-col m-auto justify-center  lg:items-start items-center animate__animated animate__fadeInLeft">
                 <h1 class="text-white flex-grow-0  lg:text-2xl text-center lg:text-start">Selamat Datang</h1>
                 <p class="text-3xl text-center lg:text-start lg:text-5xl  font-bold text-white">YAMALI TB SULSEL</p>
                 <p class="lg:text-2xl text-center lg:text-start  text-white">Yayasan Masyarakat Peduli Tubercolosis sulawesi
@@ -326,7 +326,7 @@
                     <i class="ph ph-arrow-circle-right text-xl"></i>
                     <p>Lainnya</p>
                 </a>
-                <a href="/donasi"
+                <a href="https://kitabisa.com/campaign/sedekahuntukpejuangtbdanduafa"
                     class="transition ease-in-out bg-white text-primary px-4 py-2 flex gap-3 justufy-center items-center rounded-md hover:bg-primary hover:text-white">
                     <i class="ph ph-cube text-xl"></i>
                     <p>Donasi</p>

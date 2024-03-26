@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" type="image/x-icon" href="/img/yamali.svg" />
     <title>Yamali TB</title>
     @vite('resources/css/app.css')
     <link rel="stylesheet" href="style.css">
@@ -14,7 +15,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/datepicker.min.js"></script>
     {{-- <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" /> --}}
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    {{-- <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> --}}
 </head>
 
 <body class="font-body  w-screen overflow-x-hidden bg-white">
@@ -60,6 +61,10 @@
                             class=" block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-primary md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Berita</a>
                     </li>
                     <li>
+                        <a href="https://kitabisa.com/campaign/sedekahuntukpejuangtbdanduafa"
+                            class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-primary md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Donasi</a>
+                    </li>
+                    <li>
                         <a href="/laporan-diskriminasi"
                             class=" block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-primary md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Report
                             Diskriminasi</a>
@@ -69,6 +74,7 @@
                             class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-primary md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Hubungi
                             Kami</a>
                     </li>
+                    
                 </ul>
             </div>
         </div>
@@ -103,10 +109,10 @@
                         <h2 class="mb-6 text-sm font-semibold text-white uppercase dark:text-white">Resources</h2>
                         <ul class="text-gray-500 dark:text-gray-400 font-medium">
                             <li class="mb-4">
-                                <a href="#beranda" class="hover:underline">Beranda</a>
+                                <a href="/" class="hover:underline">Beranda</a>
                             </li>
                             <li class="mb-4">
-                                <a href="#tentang" class="hover:underline">Tentang Kami</a>
+                                <a href="/#tentang" class="hover:underline">Tentang Kami</a>
                             </li>
                             <li class="mb-4">
                                 <a href="/laporan-diskriminasi" class="hover:underline">Report Diskriminasi</a>
@@ -178,10 +184,10 @@
             let
         }
     </script>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-     <script>
+    {{-- <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
         AOS.init();
-      </script>
+    </script> --}}
 </body>
 
 </html>

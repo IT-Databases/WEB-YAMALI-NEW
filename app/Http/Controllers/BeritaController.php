@@ -18,7 +18,8 @@ class BeritaController extends Controller
     public function detail($slug){
         $status ='berita';
         $berita = Berita::where('slug', $slug)->first();
-        return view ('berita-detail', compact('berita','status'));
+        $beritaRandom = Berita::inRandomOrder()->take(5)->get();
+        return view ('berita-detail', compact('berita','status','beritaRandom'));
     }
 
     public function cari(Request $request){
